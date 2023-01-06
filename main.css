@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: inline-block;
+    width: 800px;
+    margin-left: calc(50% - 400px);
+}
+
+.container:first-child {
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    float: left;
+    object-fit: contain;
+    object-position: left;
+}
+
+.main-meniu {
+    float: right;
+    margin-top: 10px;
+}
+
+.main-meniu > .link {
+    display: inline-block;
+    margin-left: 2em;
+    color: #616161;
+    font-size: 20px;
+    line-height: 1em;
+    text-decoration: none;
+}
+
+.main-meniu > a:first-child{
+    margin-left: 0;
+}
+
+.main-meniu > a:hover{
+    text-decoration: none;
+}
+
+.left-column {
+    width: 50%;
+    float: left;
+    background-color: #fff;
+
+}
+.right-column {
+    width: 45%;
+    float: right;
+
+}
+.main-title {
+    font-size: 30px;
+    font-weight: normal;
+    color: #616161;
+
+}
+.description {
+    font-size: 15px;
+
+}
+.button {
+    float: left;
+    padding: 0.9em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.3em;
+    color: #fff;
+    background-color: #8050E0;
+    border-radius: 1.7em;
+    border: 0.15em solid #8050E0;
+
+}
