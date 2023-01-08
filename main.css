@@ -48,7 +48,7 @@ a:first-child::after {
 }
 
 .main-meniu > a:hover{
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .left-column {
@@ -71,7 +71,7 @@ a:first-child::after {
     height: 6px;
     color: red;
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
 
 }
