@@ -39,6 +39,13 @@ body {
 .main-meniu > a:first-child{
     margin-left: 0;
 }
+a:first-child::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 6px;
+    color: red;
+}
 
 .main-meniu > a:hover{
     text-decoration: none;
@@ -52,7 +59,20 @@ body {
 }
 .right-column {
     width: 45%;
+    height: 285px;
     float: right;
+    position: relative;
+
+}
+.right-column::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 6px;
+    color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
 
 }
 .main-title {
